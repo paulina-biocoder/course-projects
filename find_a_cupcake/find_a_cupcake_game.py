@@ -8,12 +8,12 @@ cupcake_a = randint(0, game_width)
 cupcake_b = randint(0, game_height)
 player_a = 0
 player_b = 0
-player_found_key = False
+player_found_cupcake = False
 steps = 0
 
 distance_before_move = sqrt((cupcake_a - player_a) ** 2 + (cupcake_b - player_b) ** 2) #odległość gracza od babeczki na początku gry
 
-while not player_found_key:
+while not player_found_cupcake:
     steps += 1
     print()
     print('W tym pomieszczeniu znajduje się babeczka, znajdź ją i ciesz się smakowitym zwycięstwem! Możesz poruszać się w kierunkach określonych jako [W/A/S/D]: ')
