@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
-
 import random
 from email.message import EmailMessage
 import ssl
@@ -19,12 +13,8 @@ def choose_book(path):
     return random_book
 
 
-book = choose_book(r'C:\Users\pauli\OneDrive\Pulpit\listofbooks.txt.txt')
+book = choose_book(r'path\to\file')
 print(book)
-
-
-# In[13]:
-
 
 def send_email(book):
     sender = os.environ.get('SENDER')
@@ -57,10 +47,6 @@ Best regards!
         smtp.login(sender, password)
         smtp.sendmail(sender, receiver, em.as_string())
     return
-
-
-# In[14]:
-
 
 send_email(book)
 
