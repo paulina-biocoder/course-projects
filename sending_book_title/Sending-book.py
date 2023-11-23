@@ -12,10 +12,6 @@ def choose_book(path):
     random_book = random.choice(list_of_books)
     return random_book
 
-
-book = choose_book(r'path\to\file')
-print(book)
-
 def send_email(book):
     sender = os.environ.get('SENDER')
     password = os.environ('PASSWORD')
@@ -47,6 +43,3 @@ Best regards!
         smtp.login(sender, password)
         smtp.sendmail(sender, receiver, em.as_string())
     return
-
-send_email(book)
-
