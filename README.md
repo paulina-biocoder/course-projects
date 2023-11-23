@@ -1,3 +1,9 @@
-# Projects
+# Projekty z kursów odbywanych na platformach:
 
-All course project I can share.
+* DataCamp
+* DataQuest
+
+# Projects from courses taken on platforms:
+
+* DataCamp
+* DataQuest
