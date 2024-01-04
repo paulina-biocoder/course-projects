@@ -1,9 +1,9 @@
 # Projekty z kursów odbywanych na platformach:
 
-* Datacamp
-* Dataquest
+* DataCamp
+* DataQuest
 
 # Projects from courses taken on platforms:
 
-* Datacamp
-* Dataquest
+* DataCamp
+* DataQuest
