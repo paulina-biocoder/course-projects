@@ -1,7 +1,3 @@
-# Netflix project
-
-This is a project that was done by me after completing the intermediate python course.
-
-# Netflix project 
-
-To projekt, który został wykonany przeze mnie po ukończeniu kursu intermediate python.
+# In this folder contains the final projkets from the courses: 
+Python intermeditae, 
+Supervised Machine Learning with scikit-learn
